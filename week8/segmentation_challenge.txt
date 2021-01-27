@@ -1,0 +1,13 @@
+Extra Segmentation Challenge Problem:
+
+Constraints:
+Max segment size is 512KB
+Virtual address is 32 bits
+32GB of physical memory
+Segment tables and segments can only start on a 128-byte boundary
+There are no permission bits in the segment table
+
+Questions:
+Size of each field?
+How many entries per segment table?
+What is the segment table size?

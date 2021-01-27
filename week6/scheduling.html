@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Scheduling Notes</title>
+</head>
+
+<body>
+    <h1>Scheduling Notes</h1>
+
+    <h2>Scheduling Criteria</h2>
+
+    <h3>User Oriented</h3>
+    <ul>
+        <li><b>Turnaround time:</b> interval between submission and completion; batch job measurement</li>
+        <li><b>Response time:</b> time from submission of request until response begins to be received (key press to character displayed on screen)</li>
+        <li><b>Deadlines</b></li>
+        <li><b>Predictability:</b> the same job runs with similar turnaround and response times regardless of load on system</li>
+    </ul>
+
+    <h3>System-Oriented</h3>
+    <ul>
+        <li><b>Throughput:</b> number of processes completed per unit of time</li>
+        <li><b>Processor utilization:</b> percentage of time that the processor is busy (think about IO/CPU bound processes)</li>
+        <li><b>Fairness:</b> no starvation; processes should be treated roughly the same</li>
+        <li><b>Priorities</b></li>
+        <li><b>Balancing resources:</b> there are other resources than just CPU time</li>
+    </ul>
+    
+    <h2>Scheduling Algorithms</h2>
+
+    <h3>List of scheduling algorithms you are expected to know:</h3>
+
+    <ul>
+        <li><b>First Come First Served</b></li>
+        <li><b>Round Robin</b></li>
+        <li><b>Shortest Time to Completion First</b> (with preemption; how do you know the time to completion?)</li>
+        <li><b>Exponential Queue/Multi-level Feedback Queues</b> (what about starvation?)</li>
+    </ul>
+
+    <h2>Case Study</h2>
+
+    <h3>Round Robin vs First Come First Served</h3>
+
+    Image you have 10 processes that each take 10 time units to complete. What is the average turnaround time with RR vs FCFS? What is the average response time?
+
+</body>
+</html>
